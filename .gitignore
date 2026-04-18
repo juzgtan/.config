@@ -1,0 +1,10 @@
+# Neovim
+nvim/.local/
+nvim/.cache/
+nvim/.session/
+
+# OS
+.DS_Store
+
+# swap files
+*.swp
