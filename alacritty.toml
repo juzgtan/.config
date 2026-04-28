@@ -63,15 +63,29 @@ x = 0
 y = 1
 
 [window]
-# decorations = "none"
-dynamic_padding = true
-opacity = 0.95
-startup_mode = "Fullscreen"
+title = "Alacritty"
+dynamic_title = true
+resize_increments = false
 
 [[keyboard.bindings]]
 key = "Escape"
 mods = "Control|Shift"
 action = "ToggleFullscreen"
+
+[[keyboard.bindings]]
+key = "Equals"
+mods = "Control"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Minus"
+mods = "Control"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Key0"
+mods = "Control"
+action = "ResetFontSize"
 
 [window.padding]
 x = 0
